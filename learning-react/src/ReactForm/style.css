@@ -1,0 +1,18 @@
+*{
+    outline: none;
+}
+
+.form{
+    margin: 40px 150px;
+    align-content: center;
+    text-align: center;
+}
+.form input{
+    display: inline-block;
+    padding: 7px;
+    margin: 3px 2px;
+    background: rgb(192, 195, 196);
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
