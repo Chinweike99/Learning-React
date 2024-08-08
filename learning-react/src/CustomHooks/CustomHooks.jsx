@@ -13,7 +13,7 @@ function App(){
 
     return (
         <div className='App'>
-            Welcome
+            Welcome to React
             <button onClick={toggle}>
                 {isVisible ? "Hide" : "Show"}
             </button>
