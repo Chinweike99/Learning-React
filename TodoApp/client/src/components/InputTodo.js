@@ -17,7 +17,7 @@ const InputTodo = () => {
                 headers: { "Content-Type": "application/json"},
                 body: JSON.stringify(body)
             });
-            // console.log(response)
+            console.log(response);
             window.location = "/"; // Refreshes page and returns to homePage
         } catch (error) {
             console.error(error.message);
